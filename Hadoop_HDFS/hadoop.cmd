@@ -1,3 +1,15 @@
+Environment Variable in Linux
+        Only for the session once closed gone
+                >> export ENV_VAL = opt/airflow/Docker
+                >> echo $ENV_VAL
+                >> env | grep ENV_V*
+        Permanent Environment variable
+                Add to ~/.bashrc 
+                   >> export ENV_VAL = opt/airflow/Docker
+                Reload File
+                   >> source ~/.bashrc
+
+
 jps
 hadoop fs
 hadoop fs -usage ls
